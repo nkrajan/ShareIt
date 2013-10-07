@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_new_detail_view_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/new_detail_title_bar_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topic_view_title_bar" >
+
+        <EditText
+            android:id="@+id/new_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:ems="10"
+            android:hint="@string/new_detail_label_hint"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/new_detail_ok_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ok_button" android:contentDescription="@string/new_category_ok_button"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/new_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:hint="@string/new_detail_content_hint"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Share It!</string>
+    <string name="splash_image_description">This is the splash image.</string>
+    <string name="app_description">Do you have to-do lists? Write \'em down and share them! Please go ahead to share what you will be doing to other people!</string>
+    <string name="splash_screen_description">This is an activity for splash screen.</string>
+    <string name="category_view_description">This is an activity for category view.</string>
+    <string name="category_list_item_description">Want to bake? Here to take!</string>
+    <string name="category_list_item_category">Baking</string>
+    <string name="category_list_menu_list_button">This is a list button for CategoryView.</string>
+    <string name="category_list_menu_new_button">This is a new button for CategoryView.</string>
+    <string name="category_list_menu_label">Category</string>
+    <string name="category_list_image">This is the category image section.</string>
+    <string name="choose_the_category">Choose the category</string>
+    <string name="detail_view_description">This is an activity for detail view.</string>
+    <string name="detail_list_menu_label">Notes</string>
+    <string name="detail_list_menu_list_button">This is a list button for the DetailView.</string>
+    <string name="detail_list_menu_new_button">This is a new button for DetailView.</string>
+    <string name="detail_list_item_createdDate">2013 05 15 9:26AM</string>
+    <string name="detail_list_item_updatedDate">2013 05 15 5:12PM</string>
+    <string name="detail_list_item_topic">Donuts</string>
+    <string name="detail_list_item_createdDataLabel">created on </string>
+    <string name="detail_list_item_updatedDateLabel">updated on</string>
+    <string name="topic_view_description">This is an activity for topic view.</string>
+    <string name="topic_view_title">Topic Title</string>
+    <string name="topic_view_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis ornare nisl, non congue augue consectetur ac. Aliquam scelerisque, dolor quis imperdiet commodo, enim tellus sodales leo, eu vulputate augue tortor id orci. Maecenas luctus turpis sit amet justo ullamcorper condimentum tempor et mi. Donec varius dolor in tellus dictum tristique. Suspendisse congue enim eu orci accumsan placerat. Nullam gravida, urna id vehicula gravida, nunc magna dapibus justo, a lacinia nisl diam id erat. Nulla laoreet risus sit amet arcu sodales at elementum mi aliquam. Aenean nec metus mauris. Aenean vitae tortor tincidunt dui eleifend euismod iaculis vitae arcu. Nulla vel lorem et nulla scelerisque placerat. Sed rhoncus interdum metus ac egestas. In eget purus ac est eleifend eleifend quis eget tortor.
+
+Aenean volutpat auctor nisi vel dignissim. Suspendisse in libero non nunc fringilla tincidunt. Quisque elit velit, mattis sit amet dapibus nec, tincidunt in est. Nullam eget metus metus. Suspendisse et mollis nisl. Maecenas eu tortor et lectus lobortis interdum. Aenean quis libero quis risus gravida rutrum. Nullam egestas rhoncus justo sit amet vulputate. Sed cursus tortor in tellus consectetur sed iaculis mi ultricies. Ut vitae lorem tortor. Proin eu sapien non odio hendrerit elementum. Integer facilisis fermentum urna ac volutpat. Sed scelerisque dolor lorem, ut mollis quam. Nunc porttitor lorem ac leo volutpat ullamcorper. Curabitur lobortis sagittis sem non porttitor. </string>
+    <string name="new_category_title">This is a category title.</string>
+    <string name="new_category_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras facilisis ornare nisl, non congue augue consectetur ac. Aliquam scelerisque, dolor quis imperdiet commodo, enim tellus sodales leo, eu vulputate augue tortor id orci. Maecenas luctus turpis sit amet justo ullamcorper condimentum tempor et mi. Donec varius dolor in tellus dictum tristique. Suspendisse congue enim eu orci accumsan placerat. Nullam gravida, urna id vehicula gravida, nunc magna dapibus justo, a lacinia nisl diam id erat. Nulla laoreet risus sit amet arcu sodales at elementum mi aliquam. Aenean nec metus mauris. Aenean vitae tortor tincidunt dui eleifend euismod iaculis vitae arcu. Nulla vel lorem et nulla scelerisque placerat. Sed rhoncus interdum metus ac egestas. In eget purus ac est eleifend eleifend quis eget tortor.
+
+Aenean volutpat auctor nisi vel dignissim. Suspendisse in libero non nunc fringilla tincidunt. Quisque elit velit, mattis sit amet dapibus nec, tincidunt in est. Nullam eget metus metus. Suspendisse et mollis nisl. Maecenas eu tortor et lectus lobortis interdum. Aenean quis libero quis risus gravida rutrum. Nullam egestas rhoncus justo sit amet vulputate. Sed cursus tortor in tellus consectetur sed iaculis mi ultricies. Ut vitae lorem tortor. Proin eu sapien non odio hendrerit elementum. Integer facilisis fermentum urna ac volutpat. Sed scelerisque dolor lorem, ut mollis quam. Nunc porttitor lorem ac leo volutpat ullamcorper. Curabitur lobortis sagittis sem non porttitor. </string>
+    <string name="add_thumbnail">Add thumbnail</string>
+    <string name="new_category_view_description">This is an activity for new category view.</string>
+    <string name="new_category_label_hint">Up to 20 characters</string>
+    <string name="new_category_description_hint">Up to 20 characters</string>
+    <string name="new_category_ok_button">This is a image button for making new category.</string>
+    <string name="new_detail_label_hint">Up to 20 characters</string>
+    <string name="new_detail_content_hint">Memo content</string>
+    <string name="new_detail_view_description">This is an activity for new detail view.</string>
+    <string name="edit_detail_view_description">This is an activity for edit category view.</string>
+    <string name="title_activity_edit_detail_view">EditDetailView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit_category_dialog_message_title">Edit Category</string>
+    <string name="edit_category_dialog_message_content">Do you want to edit the selected category?</string>
+    <string name="dialog_message_yes">Yes</string>
+    <string name="dialog_message_no">No</string>
+    <string name="exit_confirmation">Tab back button again to exit.</string>
+    <string name="edit_confirmation">Please fill both fields to submit changes.</string>
+    <string name="edit_detail_dialog_message_title">Edit Memo</string>
+    <string name="edit_detail_dialog_message_content">Do you want to edit the selected memo?</string>
+    <string name="edit_category_menu_title">Edit Category</string>
+    <string name="remove_category_menu_title">Remove Category</string>
+    <string name="edit_detail_menu_title">Edit Detail</string>
+    <string name="remove_detail_menu_title">Remove Detail</string>
+    <string name="delete_category_dialog_message_title">Delete Category</string>
+    <string name="delete_category_dialog_message_content">Do you want to delete the selected category?</string>
+    <string name="delete_detail_dialog_message_title">Delete Memo</string>
+    <string name="delete_detail_dialog_message_content">Do you want to delete the selected memo?</string>
+
+</resources>

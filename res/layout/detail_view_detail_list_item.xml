@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_view_detail_list_item_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/detail_list_item_updatedDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detail_list_item_topic"
+        android:layout_below="@+id/detail_list_item_createdDateLabel"
+        android:text="@string/detail_list_item_updatedDateLabel"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/detail_list_item_createdDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detail_list_item_topic"
+        android:layout_below="@+id/detail_list_item_topic"
+        android:paddingTop="5dip"
+        android:text="@string/detail_list_item_createdDataLabel"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/detail_list_item_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:text="@string/detail_list_item_topic"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/detail_list_item_createdDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detail_list_item_updatedDate"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@id/detail_list_item_createdDateLabel"
+        android:text="@string/detail_list_item_createdDate"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/detail_list_item_updatedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/detail_list_item_updatedDateLabel"
+        android:layout_alignBottom="@+id/detail_list_item_updatedDateLabel"
+        android:layout_alignLeft="@+id/detail_list_item_createdDate"
+        android:paddingTop="5dip"
+        android:text="@string/detail_list_item_updatedDate"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</RelativeLayout>

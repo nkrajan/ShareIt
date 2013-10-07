@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="#87C9E6"/>
+     <size android:height="80dip"/>
+
+</shape>
+<!-- From: file:/Users/Gladeux/Work/Android/ShareIt/res/drawable/topic_view_title_bar.xml -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/Gladeux/Work/Android/ShareIt/assets" >
+            <file
+                name="def.png"
+                path="/Users/Gladeux/Work/Android/ShareIt/assets/def.png" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/Gladeux/Work/Android/ShareIt/build-types/debug/assets" />
+    </dataSet>
+
+</merger>
